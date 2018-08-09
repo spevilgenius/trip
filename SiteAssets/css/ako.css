@@ -1,0 +1,60 @@
+body #s4-ribbonrow {
+    display: none;
+}
+
+.thanks, .cancelled {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    margin: auto;
+}
+
+.akolink {
+    color: #166ee9 !important;
+    text-decoration: underline;
+}
+
+#UniversalNavigation, #s4-titlerow, #stickyfooter {
+    display: none;
+}
+
+html body {
+    background: url("../images/bg_darkGeometric.png");
+    background-repeat: repeat;
+    background-color: #42413c;
+    height: 100%;
+    display: grid;
+}
+
+#banner {
+    background: url("../images/TRADOC_Header.png");
+    background-repeat: no-repeat;
+    height: 130px;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.wsmenucontainer, #s4-bodyContainer, #s4-workspace {
+    width: 1280px !important;
+    background: url("../images/bg_darkGeometric.png");
+    background-repeat: repeat;
+    background-color: #42413c;
+    margin: 0 auto;
+}
+
+.s4-ca {
+    background: transparent !important;
+}
+
+body #s4-workspace {
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
+    position: relative;
+    left: 0px;
+}
+
+.wsmenu {
+    background-color: transparent;
+}

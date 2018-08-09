@@ -1,0 +1,34 @@
+﻿.s4-trc-container-menu, .ms-siteactionsmenu, .s4-breadcrumb-anchor, .highcharts-credits { display: none; }
+body #s4-leftpanel {
+    display: none !important;
+}
+
+.s4-ca {
+    margin-left: 0px !important;
+}
+
+.dashboard { margin-top: 10px; }
+
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.panel-black > .panel-heading {
+    color: #ffffff;
+    background-color: #000000;
+    border-color: #000000;
+    font-size: 16px;
+}
+
+.panel-black {
+    border-color: #000000;
+}
+
+.topiclink { color: #000000; }
+.topiclink:hover { cursor: pointer; text-decoration: underline; }
+
+.summaryrow { margin-bottom: 8px; }
+.summarytext, .summaryvalue { font-size: 20px; }

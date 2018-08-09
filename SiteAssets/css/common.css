@@ -1,0 +1,480 @@
+﻿.padr0 {
+    padding-right: 0;
+}
+
+.padl0 {
+    padding-left: 0;
+}
+
+.padlr10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.padlr15 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.padlr5 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.padtop7 {
+    padding-top: 7px;
+}
+
+.padtop5 {
+    padding-top: 5px;
+}
+
+.padb25 {
+    padding-bottom: 25px;
+}
+
+.floatleft {
+    float: left;
+}
+
+.floatright {
+    float: right;
+}
+
+.topstickyholder {
+    height: 50px;
+    width: 100%;
+}
+
+.topsticky {
+    height: 50px;
+    z-index: 2000;
+    width: 100%;
+}
+
+.sticky {
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+
+/* margins */
+.nomargin {
+    margin: 0 !important;
+}
+
+.margin-right-0 {
+    margin-right: 0;
+}
+
+.margin-left-0 {
+    margin-left: 0;
+}
+
+.margin-right-5 {
+    margin-right: 5px;
+}
+
+.margin-left-5 {
+    margin-left: 5px;
+}
+
+.margin-right-10 {
+    margin-right: 10px;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.margin-top-0 {
+    margin-top: 0;
+}
+
+.margin-bottom-0 {
+    margin-bottom: 0;
+}
+
+.margin-top-5 {
+    margin-top: 5px;
+}
+
+.margin-bottom-5 {
+    margin-bottom: 5px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+/* padding */
+.nopadding {
+    padding: 0 !important;
+}
+
+.pad-right-0 {
+    padding-right: 0;
+}
+
+.pad-left-0 {
+    padding-left: 0;
+}
+
+.pad-right-5 {
+    padding-right: 5px;
+}
+
+.pad-left-5 {
+    padding-left: 5px;
+}
+
+.pad-right-10 {
+    padding-right: 10px;
+}
+
+.pad-left-10 {
+    padding-left: 10px;
+}
+
+.pad-top-0 {
+    padding-top: 0;
+}
+
+.pad-bottom-0 {
+    padding-bottom: 0;
+}
+
+.pad-top-5 {
+    padding-top: 5px;
+}
+
+.pad-bottom-5 {
+    padding-bottom: 5px;
+}
+
+.pad-top-10 {
+    padding-top: 10px;
+}
+
+.pad-bottom-10 {
+    padding-bottom: 10px;
+}
+/* floats */
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+/* borders */
+.border-1px-black {
+    border: 1px solid black;
+}
+/* hide some stuff */
+.s4-titlelogo {
+    display: none;
+}
+
+.nav-header {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body #s4-ribbonrow {
+    background-color: #000;
+}
+
+body #s4-leftpanel {
+    width: 180px;
+}
+
+.s4-ca {
+    margin-left: 180px;
+}
+
+.ms-cui-topBar2 {
+    border-bottom: 1px solid #000000;
+}
+
+#headercontainer {
+    width: 100%;
+    min-width: 1080px;
+    border-top: solid 1px #e5b53b;
+    padding: 0;
+    display: block;
+    background: #000000; /* Old browsers */
+}
+
+#header {
+    height: 70px;
+    padding: 2px 20px;
+    margin-bottom: 1px;
+}
+
+.headerlogo {
+    height: 70px;
+    width: 60px;
+    background-image: url(../images/armylogo-80.png);
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    float: left;
+}
+
+#title {
+    float: left;
+    margin-left: 20px;
+    display: inline;
+    font-family: Franklin Gothic Heavy,Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif;
+}
+
+#title h1 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 13px;
+    margin-bottom: 5px;
+    color: #ffffff;
+    height: 25px;
+    line-height: normal;
+}
+
+#title h1 a:visited, #title h1 a:link {
+    color: #ffffff;
+}
+
+#title h1 a:hover {
+    color: #e5b53b;
+}
+
+#title span {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+#searchcontainer {
+    float: right;
+    padding-top: 19px;
+}
+
+/*#region SVGLYPHS*/
+.navbar-nns .navbar-right > li > a.glyph {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 0;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+/*.glyph {
+    padding: 0;
+    padding-top: 10px;
+}*/
+
+.cog-svg {
+    display: block;
+    text-indent: -9999px;
+    width: 24px;
+    height: 24px;
+    background: url(../images/cog-svg.svg);
+    background-size: 24px 24px;
+}
+
+.cog-svg-span {
+    position: relative;
+    height: 0;
+    width: 100%;
+    padding: 0;
+    padding-bottom: 100%;
+}
+/*#endregion SVGLYPHS*/
+
+.wsmenu-submenu li a {
+    white-space: nowrap;
+}
+
+
+/*#region MODAL*/
+
+.modal-vertical-alignment-helper {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.modal-vertical-align-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.modal-content-inherit {
+    width: inherit;
+    height: inherit;
+    margin: 0 auto;
+}
+
+.modal {
+    top: 50px;
+}
+
+/*Time input event forms*/
+
+.ms-dtinput, .ms-dttimeinput{
+    font-size: 12px;
+}
+/*#region webparts*/
+.webpartcontainer {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.ms-WPBorder, .ms-WPBorderBorderOnly {
+    border-color: #000000 !important;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.ms-WPHeader {
+    color: #fff !important;
+    background-color: #000000 !important;
+    text-decoration: none;
+}
+
+.ms-WPTitle, .ms-WPTitle a {
+    color: #ffffff !important;
+}
+
+.ms-WPHeader td, .ms-fakewptitle {
+    border-bottom: 1px solid #000000;
+    height: 28px;
+}
+
+/*#endregion*/
+
+/* ---------------------------------------------------------------------------------------- Footer Styles -------------------------------------------------------------- */
+
+/*#region FOOTER */
+
+.fwrapper {
+    min-height: 100%;
+    height: auto !important;
+    margin: 0 auto -50px;
+    overflow: visible !important;
+}
+
+.section-footer, .fpush {
+    clear: both;
+}
+
+.fpush {
+    height: 50px;
+}
+
+.section-footer {
+    height: 50px;
+}
+/* footer has 20 pixels of top and bottom padding so it is 20 pixels shorter */
+body #s4-workspace {
+    margin-bottom: -50px;
+}
+
+#footercontent {
+    margin: 0;
+}
+
+#footercontent ul li {
+    list-style: none;
+    padding-bottom: 8px;
+    font-size: 13px;
+}
+
+#footercontent ul li:hover a {
+    text-decoration: underline;
+}
+
+#footercontent ul li:first-child {
+    font-weight: 200;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+#footercontent ul li:first-child a {
+    text-decoration: none;
+    cursor: default;
+}
+
+#footercontent ul li:last-child {
+    padding-bottom: 0;
+}
+
+.footer-sub {
+    padding: 0;
+    font-size: 13px;
+}
+
+.copyright {
+    text-align: center;
+    padding: 8px 0;
+}
+
+.footerlistcol {
+    padding: 5px;
+}
+
+.footerlogo {
+    display: block;
+    padding-left: 20px;
+}
+
+.section-footer {
+    background-color: #000000;
+    color: #ffffff !important;
+}
+
+.footercontainer {
+    background-color: #000000;
+}
+
+#footercontent ul li:first-child a {
+    color: #ffffff;
+}
+
+#footercontent ul li a {
+    color: #ffffff;
+}
+
+#footercontent ul li:hover a {
+    color: #e5b53b;
+    text-decoration: underline;
+}
+
+#footercontent ul li:first-child:hover a {
+    color: #e5b53b;
+    text-decoration: none;
+}
+
+#footercontent h5 {
+    color: #ffffff;
+}
+
+.footer-sub {
+    background: #000000;
+    color: #ffffff !important;
+}
+
+.footer-sub a {
+    color: #ffffff;
+}
+
+.copyright a:hover {
+    color: #e5b53b;
+    text-decoration: underline;
+}
+
+/*#endregion End Footer */
