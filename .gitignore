@@ -60,3 +60,17 @@ typings/
 
 # next.js build output
 .next
+
+.vs/
+.vs/*
+/.vs
+.vs/slnx.sqlite
+*.sqlite
+.vs/VSWorkspaceState.json
+.vs/vue-bootstrap-base/v15/.suo
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
